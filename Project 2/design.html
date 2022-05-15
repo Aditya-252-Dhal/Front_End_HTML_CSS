@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(65, 63, 63);
+            }
+            header {
+                height:170px;
+                color: yellow;
+                font-size: 34px;
+            }
+            header > h1 {
+                margin-top: 0px;
+                padding: 38px 0px 0px 20px;
+            }
+            .navbar{
+                height:50px;
+                margin: 0px;
+                background-color: yellow;
+            }
+            .item {
+                text-align: center;
+                font-size: 20px;
+                color: black;
+                float: left; 
+                padding: 14px 26px;   
+            }
+            .item > a {
+                padding: 14px 18px;
+            }
+            a:hover {
+                font-size: 20px;
+                color: aqua;
+                background-color: lightgrey;
+                padding: 14px 18px;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: 75% 25%;
+                margin-top: 1px;
+            }
+            .grid-item {
+                height: auto;
+            }
+            .grid-container > .grid-item > .home {
+                height: 300px;
+            }
+            .grid-container > .grid-item > .home > h6 {
+                margin-top: 40px;
+                margin-bottom: 24px;
+                text-align: left;
+                color: white;
+                padding: 18px 0px 0px 20px;
+            }
+            .grid-container > .grid-item > .home > p {
+                font-size: 18px;
+                color: white;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 0px;
+                text-align: justify;
+            }
+            .grid-container > .grid-item > .website {
+                height: auto;
+            }
+            .grid-container > .grid-item > .website > h5 {
+                margin-top: 40 px;
+                padding: 20px 0px 0px 20px;
+                color: white;
+            }
+            .grid-webimg {
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+                margin: 0px 80px 0px 80px;
+            }
+            .grid-content {
+                height: auto;
+                padding: 15px;
+                border: rgb(221, 217, 217) solid 4px;
+                margin: 5px;
+                background-color: grey;
+            }
+            .grid-webimg > .grid-content > img {
+                padding: 5px 15px 5px 15px;
+                height: 280px;
+                width: 200px;
+            }
+            .grid-webimg > .grid-content > p {
+                font-size: 14px;
+                color: yellow;
+                margin: 0px;
+            }
+
+            /*Blog Section CSS Below This*/
+
+            .grid-container > .grid-item > .blog > h5 {
+                margin: 0px 0px 10px 0px;
+                padding: 20px 0px 0px 20px;
+                color: white;
+            }
+            .grid-container > .grid-item > .blog > p{
+                font-size: 18px;
+                color: white;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 0px;
+                text-align: justify;
+            }
+            .grid-container > .grid-item > .blog > ul > li {
+                font-size: 14px;
+                margin-left: 35px;
+                color: yellow;
+            }
+            .grid-container > .grid-item > .blog > .gap {
+                margin-top: 65px;
+            }
+            .grid-container > .grid-item > .blog > .gap > p {
+                font-size: 16px;
+                padding: 20px;
+                text-align: justify;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+    <header>
+        <h1>Welcome To Learn! Html5</h1>
+        <div class="navbar">
+                <span class="item"><a> HOME</a> | <a>ABOUT US</a> | <a>SERVICE</a> | <a>CONTACT</a></span>
+        </div> 
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="home">
+                <h6>HOME</h6>
+                <p>
+                    HTML elements are the building blocks of HTML pages. With HTML constructs, 
+                    images and other objects such as interactive forms may be embedded into 
+                    the rendered page. HTML provides a means to create structured documents by 
+                    denoting structural semantics for text such as headings, paragraphs, lists, 
+                    links.
+                </p>
+                <p>
+                    In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and 
+                    prototyped ENQUIRE, a system for CERN researchers to use and share documents. 
+                    In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system.[3] 
+                    Berners-Lee specified HTML and wrote the browser and server software in late 1990. 
+                    That year, Berners-Lee and CERN data systems engineer Robert Cailliau collaborated on 
+                    a joint request for funding, but the project was not formally adopted by CERN. In his 
+                    personal notes[4] from 1990 he listed[5] "some of the many areas in which hypertext is 
+                    used" and put an encyclopedia first.
+                </p>
+                </div>
+                <div class="website">
+                    <h5>Website Templates</h5>
+                    <div class="grid-webimg">
+                        <div class="grid-content">
+                                <img src="design1.jpg" alt="ADD-jpg">
+                                <p>Template Number:- 1997</p>
+                                <p>Type:- Interior Design</p>  
+                        </div>
+                        <div class="grid-content">
+                                <img src="design2.jpg" alt="ADD-jpg">
+                                <p>Template Number:- 1995</p>
+                                <p>Type:- Bussiness Site</p>
+                        </div>
+                        <div class="grid-content">
+                                <img src="design3.jpg" alt="ADD-jpg">
+                                <p>Template Number:- 1994</p>
+                                <p>Type:- Creative Minds</p>
+                        </div>
+                    </div>
+                    <div class="grid-webimg">
+                            <div class="grid-content">
+                                    <img src="design3.jpg" alt="ADD-jpg">
+                                    <p>Template Number:- 1993</p>
+                                    <p>Type:- Creative Minds</p>  
+                            </div>
+                            <div class="grid-content">
+                                    <img src="design1.jpg" alt="ADD-jpg">
+                                    <p>Template Number:- 1992</p>
+                                    <p>Type:- Interior Design</p>
+                            </div>
+                            <div class="grid-content">
+                                    <img src="design2.jpg" alt="ADD-jpg">
+                                    <p>Template Number:- 1991</p>
+                                    <p>Type:- Bussiness Site</p>
+                            </div>
+                        </div>
+                </div>    
+            </div>
+            <div class="grid-item" style="background-color: rgb(167, 160, 160)">
+                <div class="blog">
+                    <h5>Blog</h5>
+                    <p>
+                    A blog (shortening of “weblog”) is an online journal or informational 
+                    website displaying information in the reverse chronological order, with 
+                    latest posts appearing first.
+                    </p>
+                    <ul>
+                        <li>What is the use of blog.</li>
+                        <li>Whta is blog short for.</li>
+                        <li>What is the full form of blog.</li>
+                        <li>Why do people blog.</li>
+                    </ul>
+                    <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make 
+                    a type specimen book.
+                    </p>
+                    <p>
+                    Top retail store locations are within 5 miles of a GSTV 
+                    station. Reach your shopping audience while on-the-go in a brand safe, 
+                    </p>
+                    <img src="facebook.jpg" alt="ADD-jpg" style="margin-left:40px;">
+                    <p>CEO: Mark Zukeberg</p>
+                    <p>CFO: David Wehner</p>
+                    <div class="gap">
+                    <p>Free Design Tutorials & Resources</p>
+                    <p>
+                    Facebook, Inc. is an American online social media and social networking 
+                    service company based in Menlo Park, California. It was founded by Mark 
+                    Zuckerberg, along with fellow Harvard College students and roommates 
+                    Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes. 
+                    </p>
+                    <p>
+                    Along with fellow Harvard College students and roommates 
+                    Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes.
+                    </p> 
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </header>
+    </body>
+</html>

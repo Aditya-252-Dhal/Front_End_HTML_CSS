@@ -1,0 +1,259 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    border-bottom: 2px solid rgb(223, 209, 209);
+}
+  
+.left {
+    float: left;
+}
+  
+.right {
+   float: right;
+}
+  
+li a {
+    display: block;
+    color: rgb(223, 209, 209);
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+  
+.portfolia {
+    height: 550px;
+    background-color: peru;
+}
+
+.portfolia > .image-post {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 180px;
+    width: 550px;
+    background-color: rgba(5, 5, 5, 0.5);
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+.center > button {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: yellow;
+}
+
+.spaceing {
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+.stories {
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;   
+}
+  
+.grid-container > div {
+    background-color: rgb(241, 222, 222);
+    border: 1px solid rgb(241, 222, 222);
+    border-radius: 14px;
+    text-align: left;
+    padding: 10px;
+}
+
+.stories > button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    padding-right: 220px;
+}
+
+.country {
+    height: 650px;
+}
+
+.grid-image {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+    padding: 0px;
+}
+  
+.grid-image > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    height: 280px;
+}
+  
+.grid-image > div > img {
+      height: 100%;
+      width: 100%;
+}
+
+.blog {
+    height: 160px;
+    text-align: center;
+}
+
+.media-grid {
+    height: 600px;
+}
+
+.media-grid > .grid1 {
+    height: 350px;
+}
+
+.media-grid > .grid2 {
+    height: 180px;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;    
+}
+
+.grid-item1 {
+    text-align: justify;
+}
+
+.media-grid > .grid1 > .grid-container1 > .grid-item1 > a > img {
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+    padding-bottom: 24px;
+}
+  
+.media-grid > .grid1 > .grid-container1 > .grid-item1 > img {
+    height: 50%;
+    width: 100%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-item2 {
+    padding-top: 20px;
+}
+
+.media-grid > .grid2 > .grid-container2 > .grid-item2 > img {
+    height: 100%;
+    width: 100%;
+    margin-top: -34px;
+}
+
+.media-grid > .grid2 > .grid-container2 > .grid-item2 > p {
+    text-align: justify;
+    margin-top: -14px;
+    padding-right: 20px;    
+}
+
+.client {
+    height: 200px;
+    text-align: center;
+}
+
+.client > button {
+    background-color: yellow;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+    border-color: yellow;
+    color: white;
+}
+
+
+.ajayd {
+    height: 206px;
+}
+
+.ajayd > div > img {
+    height: 200px;
+}
+
+.ajayd > p {
+    text-align: justify;
+}
+ 
+* {
+    box-sizing: border-box;
+}
+  
+.menu {
+    width: 25%;
+    float: left;
+}
+  
+.main {
+    width: 75%;
+    float: left;
+    padding-left: 20px;
+}
+
+.footer {
+    height: 150px;
+    margin-top: 80px;
+}
+
+.footer > .book {
+    height: 100px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(230, 179, 11);
+}
+  
+.margin-left {
+    float: left;
+}
+  
+.margin-right {
+   float: right;
+}
+  
+li .end {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 150px 0px 150px
+}
+
+li a button {
+    background-color: yellow;
+    border-radius:10px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    margin-top: 16px; 
+}
+
+.footer > h3 {
+    text-align: center;
+}

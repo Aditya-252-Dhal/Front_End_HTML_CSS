@@ -1,0 +1,350 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    height: 70px;
+    background-color: white;
+}
+    .navbar > div {
+        padding: 25px 10px 25px 10px; 
+    }
+    .navbar > div > a {
+        background-color: aliceblue;
+        margin-right: 4px;
+        font-size: 16px;
+        font-family: monospace;
+        text-align: center;
+        padding: 20px 14px;
+    }
+    .navbar > div > a:hover {
+        border-bottom: black solid;
+        color: grey;
+    }
+.theme{
+    height: 600px;
+    background-color: aqua;
+}
+    .theme > img {
+        height: 600px;
+        width: 1349px;
+    }
+    .text-block {
+        position: absolute;
+        top: 160px;
+        left: 100px;
+        color: black;
+        font-size: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 400px;
+        width: 430px;
+        text-align: center;
+    }
+    .text-block > p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: right;
+    }
+    .text-block > button {
+        padding: 10px 18px 10px 18px;
+        font-size: 10px;
+        border-radius: 18px;
+        text-align: center;
+        background-color: black;
+        color: grey;
+    } 
+
+.helifeature{
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 39% 20% 20% 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 0px;
+    font-size: 30px;
+    
+}
+
+.grid-container > div:not(:first-child) {
+    border-left: 1px solid rgba(54, 54, 54, .6);
+}
+
+
+.helifeature > .grid-container > .item1{
+    padding: 70px 120px;
+}
+
+.helifeature > .grid-container > .item1 > a {
+    float: left;
+    font-size: 24px;
+    color: grey;
+} 
+.helifeature > .grid-container > .item1 > p {
+    float: left;
+    font-size: 18px;
+    text-align: left;
+    color: grey;
+} 
+.helifeature > .grid-container > .item1 > button {
+    float: left;
+    font-size: 12px;
+    border-radius: 16px;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: black;
+    color: grey;
+    
+} 
+
+.helifeature > .grid-container > .item2 {
+    color: aliceblue;
+    padding: 110px 80px;
+}
+
+.helifeature > .grid-container > .item2 > p {
+    margin-top: 0px;
+    font-size: 16px;
+    color: grey;
+}
+.helifeature > .grid-container > .item3 {
+    color: aliceblue;
+    padding: 110px 80px;
+}
+.helifeature > .grid-container > .item3 > p {
+    margin-top: 0px;
+    font-size: 16px;
+    color: grey;
+}
+.helifeature > .grid-container > .item4 {
+    color: aliceblue;
+    padding: 110px 80px;
+}
+.helifeature > .grid-container > .item4 > p {
+    margin-top: 0px;
+    font-size: 16px;
+    color: grey;
+}
+
+.creative_studio{
+    height: 500px;
+    background-color: white;
+}
+.creative_studio > img {
+    height: 98%;
+    width: 50%; 
+    float: left;
+    margin-top: 4px;
+    background-color: aqua;
+}
+
+.creative_studio > .data {
+    margin-top: 4px;
+    height: 98%;
+    width: 50%;
+    float: right;
+}
+.creative_studio > .data > .aditya{
+    padding: 70px 110px 40px 110px;
+}
+.creative_studio > .data > .aditya > span {
+    font-size: 40px;
+}
+.creative_studio > .data > p {
+    font-size: 20px;
+}
+.creative_studio > .data > p > u {
+    font-size: 14px;
+}
+.cuplogo{
+    height: 400px;
+    position: relative;
+    background-color: magenta;
+}
+.overlay { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, .8);}
+.cuplogo > img {
+    height: 400px;
+    width: 100%;
+}
+
+.grid-coder {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 100%;
+ }
+.grid-icon {
+    color: grey;
+    padding: 30%;
+    text-align: center;
+}
+
+.morderndesign {
+    height: 600px;
+}
+
+.morderndesign > img {
+    height: 400px;
+    width: 600px;
+    padding: 100px 40px 100px 150px;
+    float: left;
+}
+.morderndesign > p {
+    font-size: 24px;
+    padding-top: 120px;
+    color: grey;
+}
+
+.tag {
+    float: left;
+    position: relative;
+    left: -80px;
+    top: 35px;
+    z-index: 1000;
+    background-color: black;
+    padding: 40px 70px ;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.morderndesign > .tag > span {
+    font-size: 26px;
+    font-family: serif;  
+} 
+
+.morderndesign > .tag > p {
+    font-size: 12px;
+    color: grey;
+}
+
+
+.morderndesign > .boat {
+    float: left;
+    position: relative;
+    left: -350px;
+    top: 260px;
+    z-index: 1000;
+}
+
+.morderndesign > .boat > button {
+    padding: 18px 22px; 
+    font-size: 26px;
+    margin-right: 8px;
+    background-color: black;
+    color: white;
+}
+
+
+.newupdates{
+    height: 550px;
+}
+
+.grid-newsupdate {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    height: 100%;
+ }
+
+.grid-newsupdate > div  {
+    padding: 60px 60px;
+}
+
+.grid-newsupdate > div > .stuff {
+    font-size: 30px;
+    color: grey;
+}
+
+.grid-newsupdate > div > .para {
+    font-size: 16px;
+    color: grey;
+    margin-top: 30px;
+}
+
+.grid-newsupdate > div > button {
+    font-size: 10px;
+    border-radius: 18px;
+    border-color: grey;
+    padding: 10px 26px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+
+.grid-newsupdate > div > img {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 50px;    
+}
+
+.grid-newsupdate > div > span {
+    padding: 0px 32px;
+    font-size: 16px;
+}
+
+.grid-newsupdate > div > p {
+    padding: 0px 32px;
+    color: grey;
+}
+
+.beginwithhel{
+    height: 600px;
+}
+
+.beginwithhel > img {
+    height: 400px;
+    width: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    float: left;
+    margin-right: 80px;
+}
+.beginwithhel > .data {
+    padding: 200px 150px 0px 0px;
+    color: grey;
+}
+
+.beginwithhel > .data > span {
+    font-size: 36px;
+}
+
+.beginwithhel > .data > button {
+    border-radius: 18px;
+    color: grey;
+    padding: 10px 28px;
+    font-size: 10px;
+    background-color: white;
+    border-color: black;
+    
+}
+
+.subscribenow{
+    height: 140px;
+    background-color: darkcyan;
+}
+.subscribenow > .imgsrc {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+}
+.subscribenow > .imgsrc > img {
+        width: 100%;
+        height: 140px;
+}
+.about {
+        height: auto;
+        background-color: black;
+}
+.grid-least {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        text-align: justify;
+} 
+.grid-endleast{
+        padding: 10px;
+        color: #666;
+}

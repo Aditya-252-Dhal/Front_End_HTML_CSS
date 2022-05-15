@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .body-content { width: 1150px; margin: 0 auto;}
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: arial, sans-serif;
+            background-color: rgb(238, 232, 232);
+        }
+        .navbar{
+            height: 80px;
+            background-color: rgb(238, 232, 232);
+            color: black;
+        }        
+        .navcontent > a{
+            float: right;
+            font-size: 14px;
+            font-weight: 500;
+            color: black;
+            padding: 12px 20px;
+            margin-top: 18px;
+            letter-spacing: 1px;
+        }
+        .navcontent > a:hover {
+            border-bottom: #88ce1e solid 3px;
+            color: #88ce1e;
+        }
+        .icon > a{
+            float: left;
+            font-size: 24px;
+            padding: 12px 0px;
+        }  
+        .slider {
+            height: 280px;
+            background-color: greenyellow;
+            margin-bottom: 0px;
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        .welcome {
+            height: auto;
+            margin-top: 360px;
+        }
+        .welcome > h2 {
+            display: table;
+            margin: 20px auto;
+            padding-bottom: 15px;
+            border-bottom: 5px dotted #ddd;
+            font-family: arial, sans-serif;
+            color: #666;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin-top: 100px;
+        }
+        .grid-item {
+            font-size: 80px;
+            text-align: center;   
+        }
+        .grid-item > .utf {
+            border: 10px solid #efefef;
+            padding: 15px 22px;
+            border-radius: 50%;
+            background-color: greenyellow;
+            color: #fff;
+        }
+        .grid-item > p {
+            margin-top: 34px;
+            font-weight: 600;
+            font-size: 24px;
+            color: #444;
+            margin-bottom: 0px;
+        }
+        .grid-item > small {
+            font-size: 18px;
+            color: #666;
+            position: relative;
+            top: -50px;
+        }
+        .portfolio{
+            height:auto;
+        }
+        .portfolio > h2{
+            margin-top: 0px;
+            margin-left: 30px;
+        }
+        .grid-all {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .grid-imgpara {
+            display: grid;
+            grid-template-columns: repeat(2, 45% 55%);
+            border: #eae6e6 1px solid;
+            padding: 0px;
+            margin: 10px 10px;
+            background-color: white;
+            box-shadow: -6px -2px 10px -10px rgba(68, 68, 68, .75);
+        }
+        .grid-all > .grid-imgpara > .img-ara >img {
+            height: 190px;
+            width: 230px;
+            float: left;
+        }
+        .grid-all > .grid-imgpara > div {
+            padding: 0px;
+        }
+        .grid-all > .grid-imgpara > .desc > article {
+            text-align: justify;
+            font-size: 14px;
+        }
+        .grid-all > .grid-imgpara > .desc > h4 {
+            margin-top: 0px;
+            margin-bottom: 8px;
+        }
+        .grid-all > .grid-imgpara > .desc > button {
+            background-color: #88ce1e;
+            margin-bottom: 8px;
+            color: white;
+            margin: 0px 6px 5px 0px;
+            border: none;
+            padding: 4px 6px;
+        }
+        .grid-all > .grid-imgpara > .desc {
+            padding: 10px 15px 0px 5px;
+        }
+        .add > h2 {
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+        .add > .imgsrc {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+        }
+        .add > .imgsrc > img {
+            width: 100%;
+            height: 140px;
+        }
+        .about{
+            height: auto;
+            margin-top: 60px;
+        }
+        .grid-least {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            text-align: justify;
+        }
+        .grid-endleast{
+            padding: 10px;
+            color: #666;
+        }
+        .foot {
+            background-color: #cdcdcd;
+            padding: 15px 10px 15px 0px;
+        }
+        .foot > .design {
+            float: right;
+        }
+        .foot > .block > span {
+            padding: 6px 12px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="body-content">
+    <heaader>
+        <div class="navbar">
+            <span class="icon">
+                <a><b style="color:greenyellow">Graphics</b>Umbrella <br><span style="font-size: 16px;">Premium style free graphics</span></a>
+            </span>
+            <span class="navcontent">
+                <a>CONTACT</a><a>FEATURES</a><a>PRODUCT</a><a>NEWS</a><a>HOME</a>
+            </span>
+        </div>
+    </heaader>
+    <div class="slider">
+        </div>
+    <div class="welcome">
+            <h2>WELCOME TO <span style="color: greenyellow;">ELEGANTICA-</span> A MINIMAL BUSSINESS THEAM</h2>
+            
+            <div class="grid-container">
+                    <div class="grid-item"><span class="utf">&#9851;</span><p>AMAZING</p><small>Support</small></div>
+                    <div class="grid-item"><span class="utf">&#9742;</span><p>24HOUR</p><small>Availability</small></div>
+                    <div class="grid-item"><span class="utf">&#9784;</span><p>WEB</p><small>Design</small></div>
+                    <div class="grid-item"><span class="utf">&#9742;</span><p>NETWORK</p><small>Devlopment</small></div>
+            </div>                  
+    </div>
+                
+    <div class="portfolio">
+        <h2>RECENT FROM <span style="color:chartreuse">PORTFOLIO</span></h2>
+            <div class="grid-all">
+                    <div class="grid-imgpara">
+                            <div class="img-ara">        
+                                <img src="bussiness1.jpg" alt="cards">
+                                </div>
+                                <div class="desc">
+                                <h4>BUSINESS CARD</h4>
+                                <button>View</button><button>Locked</button>
+                                <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                    Rem enim quis suscipit esse consequatur odio aperiam possimus.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                    Rem enim quis suscipit esse consequatur odio aperiam possimus.
+                                </article>
+                            </div>
+                        </div>
+                <div class="grid-imgpara">
+                    <div class="img-ara">        
+                        <img src="bussiness2.jpg" alt="cards">
+                        </div>
+                        <div class="desc">
+                        <h4>BUSINESS CARD</h4>
+                        <button>View</button><button>Locked</button>
+                        <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Rem enim quis suscipit esse consequatur odio aperiam possimus.
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Rem enim quis suscipit esse consequatur odio aperiam possimus.
+                        </article>
+                    </div>
+                </div>
+                <div class="grid-imgpara">
+                        <div class="img-ara">        
+                            <img src="bussiness3.jpg" alt="cards">
+                            </div>
+                            <div class="desc">
+                                <h4>SAY IT IN PRINT</h4>
+                                <button>View</button><button>Locked</button>
+                                <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                        Rem enim quis suscipit esse consequatur odio aperiam possimus.
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                        Rem enim quis suscipit esse consequatur odio aperiam possimus.
+                                </article>
+                        </div>
+                    </div>
+                    <div class="grid-imgpara">
+                            <div class="img-ara">        
+                                <img src="bussiness4.jpg" alt="cards">
+                                </div>
+                                <div class="desc">
+                                    <h4>GRAPHICS IN PRINT</h4>
+                                    <button>View</button><button>Locked</button>
+                                    <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                            Rem enim quis suscipit esse consequatur odio aperiam possimus.
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                            Rem enim quis suscipit esse consequatur odio aperiam possimus.
+                                    </article>
+                            </div>
+                        </div>               
+            </div>
+        </div> 
+    <div class="add">
+        <h2>OUR MAJOR <span style="color: greenyellow">ADVERTISERS</span></h2>
+        <div class="imgsrc">
+        <img src="add1.jpg" alt="addvatise">
+        <img src="add2.jpg" alt="addvatise">
+        <img src="add3.jpg" alt="addvatise">
+        <img src="add4.jpg" alt="addvatise">
+        <img src="add5.jpg" alt="addvatise">
+        <img src="add6.jpg" alt="addvatise">
+        </div>
+        </div>
+    <div class="about">
+        <div class="grid-least">
+            <div class="grid-endleast">
+                <h4>Little About Us</h4>
+                <p>Its  a very good exprence to work with Graphics Umbrella. I enjoyed a lot to do the design for Graphiccs Umbrella</p>
+                <h4>FOLLOW US</h4>
+            </div>
+            <div class="grid-endleast">
+                <h4>ARCHIVES</h4>
+                <p>January 2014</p>
+                <p>February 2015</p>
+                <p>March 2016</p>
+                <p>April 2018</p>
+            </div>
+            <div class="grid-endleast">
+                <h4>CONTACT US</h4>
+                <P>Email:-aditya.dhal@aabsys.com</P>
+                <p>Cell No:-7504788736</p>
+                <p>Land-line:-222052</p>
+            </div>
+            <div class="grid-endleast">
+                <h4>SIGN TO NEWSLETTER</h4>
+                <p>Name:-________________</p>
+                <p>Email:-_________________</p>
+                <button style="background-color: greenyellow; color: #666; border-radius: 8px; padding: 5px 16px;">SUMBIT</button>    
+            </div>   
+        </div>
+    </div>
+    <div class="foot">
+        <a class="block"><span>HOME</span><span>PORTOFOLIO</span><span>CONTACT US</span><span>SITEMAP</span></a>
+        <a class="design"> <span>Design By:- ADITYA DHAL</span></a>
+    </div>
+  </div>  
+</body>
+</html>

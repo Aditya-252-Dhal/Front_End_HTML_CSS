@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+}
+.top-margin{
+    background-color: red;
+    height: 150px;
+    font-family: cursive;
+    padding: 30px;
+}
+.top-margin > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.top-margin > a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 70px;
+    font-family: cursive;
+    margin-left: 40px;
+}
+.top-margin > span {
+    float: right;
+    margin-top: 60px;
+}
+.top-margin > span > input{
+    height: 20px;
+    width: 250px;
+}
+.top-margin > span > button{
+    height: 25px;
+    width: 80px;
+}
+.navbar{
+    background-color: grey;
+    height: 45px;
+    text-align: center;
+}
+.navbar > .content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar > .content >  a {
+    color: antiquewhite;
+    font-size: 24px;
+    padding: 5px 40px 5px 40px;
+    margin: 30px;
+    margin-right: 30px;
+    background-color: blue;
+    text-align: center;
+}
+.blog{
+    background-color: lightcoral;
+    height: auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  background-color: #2196F3;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  float: left;
+}
+
+.bottom{
+    background-color: aqua;
+    height: 350px;
+}
+.grid-content{
+    display: grid;
+    grid-template-columns: 25% 25% 25%  25%;
+    background-color: aliceblue;
+}
+.grid-img{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    float: left;
+}
+.bottom > .grid-content > grid-img > img{
+    height: auto;
+    width: auto;
+}
+.foot{
+    background-color: lightgreen;
+    height: 100px;
+    text-align: center;
+}
